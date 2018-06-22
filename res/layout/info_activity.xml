@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#f8f8f8"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:src="@drawable/mine_left_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="详情介绍"
+                android:textColor="#333333"
+                android:textSize="23sp" />
+
+        </LinearLayout>
+        
+        <ImageView
+                android:id="@+id/share_btn"
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:src="@drawable/icon_share" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c8c8c8" />
+
+    <LinearLayout
+        android:id="@+id/llLoadFailed"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/ivLoadFailed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/load_failed"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/wvBannerDetails"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

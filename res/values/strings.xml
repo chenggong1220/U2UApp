@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智享工场</string>
+    <string name="plc_toast_msg_be">再按一次退出程序！</string>
+
+</resources>

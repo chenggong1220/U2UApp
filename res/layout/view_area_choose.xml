@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:background="#f8f8f8"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp" >
+
+        <Spinner
+            android:id="@+id/view_area_pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="5"
+        android:background="#f8f8f8"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp" >
+
+        <Spinner
+            android:id="@+id/view_area_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <Spinner
+        android:id="@+id/view_area_dis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:visibility="gone" />
+
+</LinearLayout>

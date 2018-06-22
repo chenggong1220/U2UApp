@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:paddingBottom="10dp" >
+
+    <TextView
+        android:id="@+id/ask_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="i5T5.4"
+        android:textColor="#333333"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/ask_mins"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/askfor_min" />
+
+    <TextView
+        android:id="@+id/ask_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/mind_return"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:singleLine="true"
+        android:text="1"
+        android:textColor="#333333"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/ask_plus"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/askfor_plus" />
+
+    <TextView
+        android:id="@+id/ask_meal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:singleLine="true"
+        android:text="10元/小时套餐"
+        android:textColor="#333333"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+</LinearLayout>
